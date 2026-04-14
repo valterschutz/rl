@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T07:27:06.418442+00:00",
+  "last_updated": "2026-04-14T19:22:22.774466+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-04-14",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/valterschutz/rl/actions/runs/24386509842",
       "orchestrator_run_id": 24386509842,
       "workflows": {
