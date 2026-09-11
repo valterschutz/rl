@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T20:36:05.596949+00:00",
+  "last_updated": "2026-09-11T10:32:56.275749+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -14,11 +14,124 @@
       "runs_with_data": 23,
       "total_workflow_runs": 276,
       "total_success": 207,
-      "total_failure": 8,
+      "total_failure": 7,
       "success_rate": 75.0
     }
   },
   "history": [
+    {
+      "date": "2026-09-11",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/valterschutz/rl/actions/runs/34589674360",
+      "orchestrator_run_id": 34589674360,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231865214",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231863720",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231864113",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231865183",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231865897",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231864040",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231865996",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231864814",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231866054",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231864059",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231863988",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231865372",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231865090",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231865042",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231865142",
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/valterschutz/rl/actions/runs/34589674360/job/103231865136",
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 16,
+        "success": 9,
+        "failure": 0,
+        "skipped": 4,
+        "other": 3,
+        "success_rate": 75.0
+      }
+    },
     {
       "date": "2026-09-10",
       "orchestrator_ran": true,
@@ -9380,119 +9493,6 @@
         "failure": 1,
         "skipped": 4,
         "other": 2,
-        "success_rate": 75.0
-      }
-    },
-    {
-      "date": "2026-06-13",
-      "orchestrator_ran": true,
-      "orchestrator_status": "queued",
-      "orchestrator_url": "https://github.com/valterschutz/rl/actions/runs/27462161645",
-      "orchestrator_run_id": 27462161645,
-      "workflows": {
-        "test-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858609",
-          "display_name": "Linux Tests"
-        },
-        "test-linux-llm.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858290",
-          "display_name": "LLM Tests"
-        },
-        "test-linux-habitat.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858398",
-          "display_name": "Habitat Tests"
-        },
-        "test-linux-tutorials.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858123",
-          "display_name": "Tutorials Tests"
-        },
-        "test-linux-sota.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858130",
-          "display_name": "SOTA Tests"
-        },
-        "test-linux-libs.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858298",
-          "display_name": "Libs Tests"
-        },
-        "test-windows-optdepts.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858114",
-          "display_name": "Windows Tests"
-        },
-        "lint.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858128",
-          "display_name": "Lint"
-        },
-        "docs.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858165",
-          "display_name": "Documentation"
-        },
-        "benchmarks.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858112",
-          "display_name": "Benchmarks"
-        },
-        "validate-test-partitioning.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858087",
-          "display_name": "Test Partitioning"
-        },
-        "nightly_build.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858265",
-          "display_name": "Nightly Build"
-        },
-        "build-wheels-linux.yml": {
-          "status": "cancelled",
-          "conclusion": "cancelled",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858117",
-          "display_name": "Wheels (Linux)"
-        },
-        "build-wheels-m1.yml": {
-          "status": "cancelled",
-          "conclusion": "cancelled",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858125",
-          "display_name": "Wheels (M1)"
-        },
-        "build-wheels-windows.yml": {
-          "status": "cancelled",
-          "conclusion": "cancelled",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858143",
-          "display_name": "Wheels (Windows)"
-        },
-        "build-wheels-aarch64-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/valterschutz/rl/actions/runs/27462161645/job/81177858152",
-          "display_name": "Wheels (Aarch64)"
-        }
-      },
-      "summary": {
-        "total": 16,
-        "success": 9,
-        "failure": 0,
-        "skipped": 4,
-        "other": 3,
         "success_rate": 75.0
       }
     }
