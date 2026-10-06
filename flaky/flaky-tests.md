@@ -1,4 +1,4 @@
-# Flaky Test Report - 2026-10-05
+# Flaky Test Report - 2026-10-06
 
 ## Summary
 
@@ -6,7 +6,7 @@
 - **Newly flaky** (last 7 days): 0
 - **Resolved**: 0
 - **Total tests analyzed**: 0
-- **CI runs analyzed**: 5
+- **CI runs analyzed**: 6
 
 ---
 
@@ -25,4 +25,4 @@ All tests are passing consistently.
 
 ---
 
-*Generated at 2026-10-05T13:09:55.210819+00:00*
+*Generated at 2026-10-06T12:30:22.953054+00:00*
